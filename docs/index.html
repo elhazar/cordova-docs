@@ -10,22 +10,22 @@ change_frequency: monthly
     <div class="container vertical-center-parent">
         <div id="hero_section" class="row vertical-center-child">
             <div class="col-xs-12 col-sm-5 cordova-bot">
-                <img src="{{ site.baseurl }}/static/img/cordova_bot.png" />
+                <img src="{{ site.baseurl | prepend: site.github.url }}/static/img/cordova_bot.png" />
             </div>
             <div class="col-xs-12 col-sm-7 hero_content">
-                <img class="hero_logo hidden-xs" src="{{ site.baseurl }}/static/img/cordova-logo-newbrand-textonly.svg" />
-                <!-- <img class="hero_logo visible-xs" src="{{ site.baseurl }}/static/img/logo_full_2.svg" /> -->
+                <img class="hero_logo hidden-xs" src="{{ site.baseurl | prepend: site.github.url }}/static/img/cordova-logo-newbrand-textonly.svg" />
+                <!-- <img class="hero_logo visible-xs" src="{{ site.baseurl | prepend: site.github.url }}/static/img/logo_full_2.svg" /> -->
                 <p>Mobile apps with <em>HTML</em>, <em>CSS</em> &amp; <em>JS</em></p>
                 <p>Target multiple platforms with <em>one code base</em></p>
                 <p>Free and <em>open source</em></p>
                 <div class="hero_supported_platforms">
-                    <img src="{{ site.baseurl }}/static/img/platform-logos.svg" width="188px" /><a href="#supported_platforms_section" class="platforms_more">+4 more...</a>
+                    <img src="{{ site.baseurl | prepend: site.github.url }}/static/img/platform-logos.svg" width="188px" /><a href="#supported_platforms_section" class="platforms_more">+4 more...</a>
                 </div>
                 <div class="hero_buttons">
                     <a href="#getstarted" class="col-xs-12 col-sm-5 btn btn-lg btn-primary">
                         Get Started
                     </a>
-                    <a href="{{ site.baseurl }}/docs/en/{{ site.default_linked_docs_version }}/" class="col-xs-12 col-sm-6 btn btn-lg btn-primary">
+                    <a href="{{ site.baseurl | prepend: site.github.url }}/docs/en/{{ site.default_linked_docs_version }}/" class="col-xs-12 col-sm-6 btn btn-lg btn-primary">
                         Documentation
                     </a>
                 </div>
@@ -75,7 +75,7 @@ change_frequency: monthly
             <h2>Installing Cordova</h2>
             <p>Cordova command-line runs on <a target="_blank" href="http://nodejs.org/">Node.js</a> and is available on 
             <a target="_blank" href="https://npmjs.org/package/cordova">NPM</a>. 
-            Follow <a href="{{ site.baseurl }}/docs/en/{{ site.default_linked_docs_version }}/index.html#develop-for-platforms">platform specific guides</a> 
+            Follow <a href="{{ site.baseurl | prepend: site.github.url }}/docs/en/{{ site.default_linked_docs_version }}/index.html#develop-for-platforms">platform specific guides</a> 
             to install additional platform dependencies. Open a command prompt or Terminal, and type <code>npm install -g cordova</code>.</p>
         </div>
         <div class="col-md-4 col-xs-12">
@@ -154,16 +154,16 @@ change_frequency: monthly
             <h2>Common next steps</h2>
             <ul class="nav">
                 <li>
-                    <a href="{{ site.baseurl }}/docs/en/{{ site.default_linked_docs_version }}/guide/overview/">Read the docs</a>
+                    <a href="{{ site.baseurl | prepend: site.github.url }}/docs/en/{{ site.default_linked_docs_version }}/guide/overview/">Read the docs</a>
                 </li>
                 <li>
-                    <a href="{{ site.baseurl }}/docs/en/{{ site.default_linked_docs_version }}/guide/cli/#add-plugins">Add a Plugin</a>
+                    <a href="{{ site.baseurl | prepend: site.github.url }}/docs/en/{{ site.default_linked_docs_version }}/guide/cli/#add-plugins">Add a Plugin</a>
                 </li>
                 <li>
-                    <a href="{{ site.baseurl }}/docs/en/{{ site.default_linked_docs_version }}/config_ref/images.html">Customize app icons</a>
+                    <a href="{{ site.baseurl | prepend: site.github.url }}/docs/en/{{ site.default_linked_docs_version }}/config_ref/images.html">Customize app icons</a>
                 </li>
                 <li>
-                    <a href="{{ site.baseurl }}/docs/en/{{ site.default_linked_docs_version }}/config_ref/">Configure Your App</a>
+                    <a href="{{ site.baseurl | prepend: site.github.url }}/docs/en/{{ site.default_linked_docs_version }}/config_ref/">Configure Your App</a>
                 </li>
             </ul>
         </div>
@@ -180,7 +180,7 @@ change_frequency: monthly
             <div class="col-md-12 text-center">
                 <h1>Supported Platforms</h1>
                 <h2>See a list of
-                    <a href="{{ site.baseurl }}/docs/en/{{ site.default_linked_docs_version }}/guide/support/index.html">features supported</a> in each platform</h2>
+                    <a href="{{ site.baseurl | prepend: site.github.url }}/docs/en/{{ site.default_linked_docs_version }}/guide/support/index.html">features supported</a> in each platform</h2>
                 <p>
                     Cordova wraps your HTML/JavaScript app into a native container which can access the device functions of several platforms.
                     These functions are exposed via a unified JavaScript API, allowing you to easily write one set of code to target nearly every
@@ -195,7 +195,7 @@ change_frequency: monthly
             <div class="row">
                 <div class="col-md-12">
                     <ul class="platform_logos">
-                        <li><img src="{{ site.baseurl }}/static/img/3rdparty_logo_sprite.svg"/></li>
+                        <li><img src="{{ site.baseurl | prepend: site.github.url }}/static/img/3rdparty_logo_sprite.svg"/></li>
                     </ul>
                 </div>
             </div>
