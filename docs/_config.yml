@@ -1,1 +1,3 @@
 baseurl: /cordova-docs
+sass:
+    sass_dir: static/css-src
